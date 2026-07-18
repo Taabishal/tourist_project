@@ -19,7 +19,7 @@ st.set_page_config(
 def load_model():
     try:
         model_path = hf_hub_download(
-            repo_id="happy-face1/Tourism_AIML25", 
+            repo_id="happy-face1/Toursim_pkg_pediction", 
             filename="best_tourism_model_v1.joblib"
         )
         model = joblib.load(model_path)
